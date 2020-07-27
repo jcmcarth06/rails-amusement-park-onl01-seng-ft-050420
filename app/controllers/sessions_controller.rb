@@ -22,7 +22,7 @@ class SessionsController < ApplicationController
 
     def destroy
         session.delete :name
-        redirect_to '/login'
+        redirect_to '/signin'
     end
 
 end
